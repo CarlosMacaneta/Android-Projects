@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Toast Message</string>
+    <string name="btnToast">Pressione</string>
+</resources>
