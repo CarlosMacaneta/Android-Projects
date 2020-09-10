@@ -17,4 +17,5 @@
     <string name="btnMinus">-</string>
     <string name="btnDiv">÷</string>
     <string name="btnMult">×</string>
+    <string name="clean">Clean</string>
 </resources>

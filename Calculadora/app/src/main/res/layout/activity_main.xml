@@ -15,16 +15,29 @@
         android:ems="10"
         android:fontFamily="casual"
         android:inputType="text"
-        android:text="@string/text"
         android:textAlignment="textEnd"
         android:textSize="14pt"
         android:textStyle="bold" />
+
+    <!--Clean-->
+    <Button
+        android:id="@+id/btnClean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clean"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:onClick="buttonPressed"/>
 
     <!--Buttons 7 to 9-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:orientation="horizontal">
 
         <Button
@@ -36,7 +49,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn7" />
+            android:text="@string/btn7"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btn8"
@@ -47,7 +61,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn8" />
+            android:text="@string/btn8"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btn9"
@@ -58,7 +73,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn9" />
+            android:text="@string/btn9"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btnDiv"
@@ -70,7 +86,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btnDiv" />
+            android:text="@string/btnDiv"
+            android:onClick="buttonPressed"/>
     </LinearLayout>
 
     <!--Buttons 4 to 6-->
@@ -89,7 +106,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn4" />
+            android:text="@string/btn4"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btn5"
@@ -100,7 +118,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn5" />
+            android:text="@string/btn5"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btn6"
@@ -111,7 +130,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn6" />
+            android:text="@string/btn6"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btnMult"
@@ -123,7 +143,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btnMult" />
+            android:text="@string/btnMult"
+            android:onClick="buttonPressed"/>
     </LinearLayout>
 
     <!--Buttons 1 to 3-->
@@ -142,7 +163,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn1" />
+            android:text="@string/btn1"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btn2"
@@ -153,7 +175,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn2" />
+            android:text="@string/btn2"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btn3"
@@ -164,7 +187,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn3" />
+            android:text="@string/btn3"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btnMinus"
@@ -176,7 +200,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btnMinus" />
+            android:text="@string/btnMinus"
+            android:onClick="buttonPressed"/>
 
     </LinearLayout>
 
@@ -195,7 +220,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btn0" />
+            android:text="@string/btn0"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btnDot"
@@ -206,7 +232,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btnDot" />
+            android:text="@string/btnDot"
+            android:onClick="buttonPressed"/>
 
         <Button
             android:id="@+id/btnEqual"
@@ -230,8 +257,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="12pt"
-            android:text="@string/btnSum" />
-
+            android:text="@string/btnSum"
+            android:onClick="buttonPressed"/>
     </LinearLayout>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
