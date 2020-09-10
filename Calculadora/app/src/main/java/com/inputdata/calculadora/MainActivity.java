@@ -1,15 +1,14 @@
 package com.inputdata.calculadora;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText editNum;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,28 +22,54 @@ public class MainActivity extends AppCompatActivity {
 
         if(editNum.getText().toString().contains("+")) {
             String[] dados = editNum.getText().toString().split("[+]");
-            double value1 = Double.parseDouble(dados[0]);
-            double value2 = Double.parseDouble(dados[1]);
+            double total = 0;
 
-            editNum.setText(String.valueOf(value1 + value2));
+            for(String num: dados){
+                total += Double.parseDouble(num);
+            }
+
+            editNum.setText(String.valueOf(total));
         } else if(editNum.getText().toString().contains("-")){
-            String[] dados = editNum.getText().toString().split("-");
-            double value1 = Double.parseDouble(dados[0]);
-            double value2 = Double.parseDouble(dados[1]);
+            String[] nums = editNum.getText().toString().split("-");
+            double total = Double.parseDouble(nums[0]);
 
-            editNum.setText(String.valueOf(value1 - value2));
+            for (int i = 1; i < nums.length; i++){
+                total -= Double.parseDouble(nums[i]);
+            }
+
+            editNum.setText(String.valueOf(total));
         } else if(editNum.getText().toString().contains("×")|| editNum.getText().toString().contains("*")){
-            String[] dados = editNum.getText().toString().split("×");
-            double value1 = Double.parseDouble(dados[0]);
-            double value2 = Double.parseDouble(dados[1]);
 
-            editNum.setText(String.valueOf(value1 * value2));
+            String[] nums;
+
+            if (editNum.getText().toString().contains("×")) {
+                nums = editNum.getText().toString().split("×");
+            }else {
+                nums = editNum.getText().toString().split("[*]");
+            }
+
+            double total_ = 1;
+
+            for(String num: nums){
+                total_ *= Double.parseDouble(num);
+            }
+
+            editNum.setText(String.valueOf(total_));
         } else if(editNum.getText().toString().contains("÷")|| editNum.getText().toString().contains("/")){
-            String[] dados = editNum.getText().toString().split("÷");
-            double value1 = Double.parseDouble(dados[0]);
-            double value2 = Double.parseDouble(dados[1]);
+            String[] nums;
 
-            editNum.setText(String.valueOf(value1 / value2));
+            if (editNum.getText().toString().contains("×")) {
+                nums = editNum.getText().toString().split("÷");
+            }else {
+                nums = editNum.getText().toString().split("/");
+            }
+            double total = Double.parseDouble(nums[0]);
+
+            for (int i = 1; i < nums.length; i++){
+                total /= Double.parseDouble(nums[i]);
+            }
+
+            editNum.setText(String.valueOf(total));
         }
     }
 }
