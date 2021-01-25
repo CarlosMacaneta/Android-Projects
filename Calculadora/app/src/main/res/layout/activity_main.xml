@@ -16,78 +16,114 @@
         android:fontFamily="casual"
         android:inputType="text"
         android:textAlignment="textEnd"
+        android:textColorHighlight="#3F51B5"
+        android:textColorLink="#03A9F4"
         android:textSize="14pt"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="normal" />
 
     <!--Clean-->
     <Button
         android:id="@+id/btnClean"
+        style="?android:attr/buttonBarButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/clean"
-        android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
+        android:background="#009688"
         android:fontFamily="casual"
-        android:textStyle="bold"
+        android:keyboardNavigationCluster="true"
+        android:onClick="buttonPressed"
+        android:text="@string/clean"
+        android:textColorHighlight="#3F51B5"
+        android:textColorLink="#2196F3"
         android:textSize="12pt"
-        android:onClick="buttonPressed"/>
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible" />
 
     <!--Buttons 7 to 9-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:visibility="visible">
 
         <Button
             android:id="@+id/btn7"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn7"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btn8"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn8"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btn9"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn9"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btnDiv"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btnDiv"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
     </LinearLayout>
 
     <!--Buttons 4 to 6-->
@@ -95,56 +131,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:visibility="visible">
 
         <Button
             android:id="@+id/btn4"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn4"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btn5"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn5"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btn6"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn6"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btnMult"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btnMult"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
     </LinearLayout>
 
     <!--Buttons 1 to 3-->
@@ -152,56 +214,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:visibility="visible">
 
         <Button
             android:id="@+id/btn1"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn1"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btn2"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn2"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btn3"
+            style="?android:attr/buttonCornerRadius"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn3"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btnMinus"
+            style="?android:attr/buttonCornerRadius"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btnMinus"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
     </LinearLayout>
 
@@ -209,56 +297,82 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:visibility="visible">
 
         <Button
             android:id="@+id/btn0"
+            style="?android:attr/buttonCornerRadius"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btn0"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btnDot"
+            style="?android:attr/buttonCornerRadius"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btnDot"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btnEqual"
+            style="?android:attr/buttonCornerRadius"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="solve"
             android:text="@string/btnEqual"
-            android:onClick="solve"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
 
         <Button
             android:id="@+id/btnSum"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
+            android:background="#009688"
             android:fontFamily="casual"
-            android:textStyle="bold"
-            android:textSize="12pt"
+            android:onClick="buttonPressed"
             android:text="@string/btnSum"
-            android:onClick="buttonPressed"/>
+            android:textColorHighlight="#3F51B5"
+            android:textColorLink="#2196F3"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
     </LinearLayout>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="background">Background</string>
+    <string name="addevt">Adicionar Evento</string>
+    <string name="listevt">Listar evento</string>
+    <string name="menu">Menu</string>
+    <string name="agenda">Agenda de eventos</string>
+    <string name="title">Título</string>
+    <string name="date">Data</string>
+    <string name="date_format">dd/mm/aaaa</string>
+    <string name="desc">Descrição</string>
+    <string name="save">Salvar evento</string>
+    <string name="update">Actualizar evento</string>
+    <string name="cancel">Cancelar</string>
+    <string name="menuedit">Editar</string>
+    <string name="menudel">Apagar</string>
+    <string name="channel_name">Agenda</string>
+    <string name="channel_description">Notificação</string>
+</resources>

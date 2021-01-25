@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".activities.ActualizarEvento">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <!--  Text view and Edit Text layout  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:id="@+id/textViewTitleUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:fontFamily="sans-serif"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_blue"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextTitleUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/textViewTitle"
+            android:hint="@string/title"
+            android:fontFamily="sans-serif"
+            android:textColorHighlight="@color/light_blue"
+            android:textColorLink="@color/light_blue"
+            android:textSize="18sp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/textViewDateUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:fontFamily="sans-serif"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_blue"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextDateUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="@string/date"
+            android:fontFamily="sans-serif"
+            android:textColorLink="@color/light_blue"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textViewDescUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:fontFamily="sans-serif"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_blue"
+            android:textSize="18sp"/>
+
+
+        <EditText
+            android:id="@+id/editTextDescUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:hint="@string/desc"
+            android:fontFamily="sans-serif"
+            android:textColorLink="@color/light_blue"
+            android:textSize="18sp"
+            android:maxHeight="150dp"/>
+    </LinearLayout>
+
+    <!-- Buttons Layout   -->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/btnIconUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:background="@drawable/rounded_border"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>-->
+
+</RelativeLayout>
